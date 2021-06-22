@@ -1,0 +1,110 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+body {
+    
+    direction: rtl;
+    background-color:#AE3E4A;
+    margin:0 auto;
+    width: 1280px;
+    
+}
+
+header{
+
+}
+
+
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+
+nav li a{
+
+    display: inline-block;
+    float: right;
+    font-family: GadiAlmogAlefAlefAlef ;
+
+}
+
+
+nav ul li a{
+
+    display:grid;
+    background-color:#314635;
+    color: honeydew;
+    width: 180px;
+    height: 30px;
+    padding-top: 10px;
+    margin:0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+nav ul li a:hover{
+background-color:rgb(0, 0, 0);
+
+}
+
+.bottleOpen{
+    font-family: 'Heebo';
+   margin-top: 0px;
+    color: #E5E5D8;
+    padding: 100px, 150px, 750px, 40px;
+  
+
+}
+
+.fruits{
+    font-family: 'Heebo';
+    color: #E5E5D8;
+
+}
+
+.professional{
+    font-family: 'Heebo';
+    color: #E5E5D8;
+
+}
+
+h2{
+  
+    font-family: 'Heebo';
+    font-size: 35px;
+    
+    }
+#afizut{
+    float: right;
+ 
+}
+
+
+
+#bottle{
+float: left;
+
+}
+
+#perot{
+    float: left;
+    margin-top: 850px;
+}
+
+#grapes{
+    float: right;
+    margin-top: 850px;
+}
+
+footer{
+float: center;
+   background-color: #E5E5D8; 
+   margin-bottom: 0px;
+   width: 1000px;
+   height: 50px;
+   bottom: 0px;
+}
+
+
