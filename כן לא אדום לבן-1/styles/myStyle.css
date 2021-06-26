@@ -1,0 +1,372 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+body {
+    direction: rtl;
+    background-color: #AE3E4A;
+    margin: 0 auto;
+    
+}
+
+header {
+  
+    height: 683px;
+    display: flex;
+    background-image: url('/Users/nir/Desktop/כן לא אדום לבן-1/Images/homepageNew_wine.jpg');
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-position:center;
+
+
+}
+
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    -webkit-animation: dash 5s linear;
+    -webkit-animation-iteration-count:1;
+    }
+    
+    @-webkit-keyframes dash {
+    from {
+    stroke-dashoffset: 1000;
+    }
+    to {
+    stroke-dashoffset: 10;
+    }
+    }
+
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+
+header nav li a{
+
+    display: inline-block;
+    float: right;
+    font-family: GadiAlmogAlefAlefAlef ;
+
+}
+
+
+header nav ul li a {
+    display: inline-block;
+    background-color: #314635;
+    color: honeydew;
+    width: 180px;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid #E5E5D8;
+    display: inline-block;
+}
+
+header nav, header nav ul, header nav li {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+header nav li.header navStart {
+    width: 266px;
+}
+
+header nav {
+    margin: 8px auto;
+}
+
+header nav li:nth-child(2) a{
+    border-radius:0 10px 10px 0;
+}
+
+header nav li:last-child a{
+    border-radius:10px 0px 0px 10px;
+}
+
+header nav ul li a:hover{
+background-color:rgb(0, 0, 0);
+
+}
+#glass{
+
+
+}
+
+div.maindivinhome {
+    height: 750px;
+    display: block;
+    margin-top: -82px;
+
+
+}
+
+div.maindivinhome div h2 {
+font-family:Heebo;
+color: #E5E5D8 ;
+font-size: 30pt;
+}
+
+div.maindivinhome div p {
+font-family:'Gadi Almog AlefAlefAlef';
+line-height: 170%;
+font-size: 20px;
+}
+
+div.maindivinhome div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+        margin-top: 145px;
+        text-align:center;
+        
+      
+}
+
+div.maindivinhome div * {
+display:block;
+margin: 33px;
+
+}
+
+div.maindivinhome div a {
+    color: black;
+    background: #E5E5D8;
+    width: 178px;
+    height: 8px;
+    text-align: center;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 15px;
+    line-height: 8px;
+    border-radius: 48px;
+    margin: auto;
+    font-family: heebo medium;
+}
+
+div.maindivinhome div a:hover {
+    background-color:#8E9085 ;
+    border: 3px,#E5E5D8 ;
+    color: white;
+    font-family: heebo medium;
+ 
+}
+
+div.maindivinhome object {
+    width: 40%;
+    margin: 4%;
+}
+
+
+
+.bottleOpen {
+    font-family: 'Heebo';
+    margin-top: 0px;
+    color: #E5E5D8;
+    padding: 100px, 150px, 750px, 40px;
+}
+
+.fruits{
+    font-family: 'Heebo';
+    color: #E5E5D8;
+
+}
+
+.professional{
+    font-family: 'Heebo';
+    color: #E5E5D8;
+
+}
+
+h2{
+  
+    font-family: 'Heebo';
+    font-size: 35px;
+    
+    }
+
+
+
+#bottle{
+float: left;
+
+}
+
+#perot{
+    float: left;
+    margin-top: 850px;
+}
+
+#grapes{
+    float: right;
+    margin-top: 850px;
+}
+
+footer{
+    margin-top: 0px;
+}
+
+
+footer nav li a {
+    display: inline-block;
+    float: right;
+    font-family: heebo;
+}
+
+
+footer nav ul li a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer nav, footer nav ul, footer nav li {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+    footer nav li.footer navStart {
+        width: 266px;
+    }
+
+
+footer nav {
+    margin: 8px auto;
+    margin-top: 200px;
+    width:100%
+}
+
+
+    footer nav ul li a:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+
+
+.vocabelrydiv h2 {
+    font-family:'Gadi Almog AlefAlefAlef';
+    color: black;
+ 
+}
+
+.vocabelryleft h2 {
+    font-family:'Gadi Almog AlefAlefAlef';
+    color: black;
+ 
+}
+
+
+.vocabelrydiv DIV :hover {
+    width: 600px;
+ 
+    
+}
+
+.vocabelrydiv:hover DIV p {
+display:block
+
+}
+
+.vocabelrydiv DIV {
+    background-color:#E5E5D8;
+    width: auto;
+    padding: 28px 49px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 80px;
+    left: 42px;
+    Z-INDEX: -1;
+   
+ 
+    
+}
+
+.vocabelrydiv div p {
+display:none;
+font-family: heebo medium;
+line-height: 170%;
+font-size: 20px;
+
+}
+
+.vocabelryleft  div p {
+    display:none;
+    font-family: heebo medium;
+    }
+
+.vocabelryleft{
+    float:left;
+    
+}
+
+.vocabelryleft div{
+    left: auto;
+    right: 40px;
+    background-color:#E5E5D8;
+    width: auto;
+    padding: 28px 49px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 80px;
+    left: 42px;
+    Z-INDEX: -1;
+   
+}
+
+.vocabelryleft DIV :hover {
+    width: 600px;
+    display:block
+ 
+}
+
+.vocabelryleft:hover DIV p {
+display:block
+
+}
+.headersecondarypage {
+    height: 149px;
+    display: flex
+}
+
+h1{
+
+    font-family:Heebo;
+    color:aliceblue
+}
+
+.vocabelrydiv img{
+width: 300px;
+height: auto;
+display: inline-block;
+
+}
+
+.vocabelrydiv{
+    margin-top: 300px;
+}
+
+.vocabelryleft img{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    
+    }
+    #blend{
+        
+        MARGIN-RIGHT: -19px;
+        margin-top:50px 
+            }
